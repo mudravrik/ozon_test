@@ -1,1 +1,5 @@
-# ozon_test
+# SQL test for ozon
+## Схема БД
+![DB schema](https://www.plantuml.com/plantuml/img/TPBFJiCm3CRlVWfJBejWGbohgbgKfMD2ewDB3pjLXGQjeXseVwHEY3jFmSFn96HQCjAovMJP_dwVRMLIDsdLj6K1S979btmhiKcV2Zdg23uNQLrZXvw78t5z6GHKFOA-Vsnzh_8ohNR9gzpj1LxhTzvDwyCcpoIMijcyPJN00SZYbGWNF28VWEfTzSIccDppDT7rO1xgYCuuV6hCCexO7LrnWgSufcfpbb4uZPdOftJ6TjEfHs6YAHMMsq5xnkmFRBoO4i_2Q6sH7-Y27oUPit_in6XEczZ4eOj2WTd5TUsjqBbrS3psqVdv-dRGdANV17e2rxKsEQkqppWSNN6jCOS8uz8x3apaDbF_xXS0)
+Сгенерировано из db_schema.puml  
+Квери в файлах по номерам задач.  
