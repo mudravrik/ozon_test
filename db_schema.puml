@@ -1,0 +1,34 @@
+@startuml
+
+!define table(x) class x << (T,#FFAAAA) >>
+!define primary_key(x) <u>x</u>
+hide methods
+
+table(CUSTOMER){
+    + primary_key(CUSTOMER_KEY)
+    + FIO
+    + AGE
+}
+table(PURCHASE) {
+    + primary_key(PURCHASE_KEY)
+    + PRODUCT_KEY
+    + CUSTOMER_KEY
+    + QTY
+    + DATE
+}
+table(PRODUCT) {
+    + primary_key(PRODUCT_KEY)
+    + CATEGORY_KEY
+    + NAME
+    + PRICE
+}
+table(PRODUCT_CATEGORY) {
+    + primary_key(CATEGORY_KEY)
+    + CATEGORY
+}
+
+CUSTOMER::CUSTOMER_KEY "1" --> "∞" PURCHASE::CUSTOMER_KEY
+PRODUCT::PRODUCT_KEY "1" --> "∞" PURCHASE::PRODUCT_KEY
+PRODUCT_CATEGORY::CATEGORY_KEY "1" --> "∞" PRODUCT::CATEGORY_KEY
+
+@enduml
